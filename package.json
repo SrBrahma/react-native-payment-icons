@@ -1,0 +1,55 @@
+{
+  "name": "react-native-payment-icons",
+  "version": "1.0.0",
+  "description": "Displays Credit Card and other payment ways icons!",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"No test specified.\"",
+    "lint": "eslint --fix \"src/**\"",
+    "clean": "rimraf lib",
+    "build": "npm run clean && tsc",
+    "prepublishOnly": "npm run lint && npm run test",
+    "prepare": "npm run build",
+    "start": "npm run watch"
+  },
+  "keywords": [
+    "credit",
+    "card",
+    "payment",
+    "visa",
+    "mastercard",
+    "react-native",
+    "credit-card",
+    "native",
+    "icon",
+    "paypal",
+    "icons",
+    "logo",
+    "svg",
+    "image"
+  ],
+  "author": "",
+  "license": "ISC",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-gev": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "rimraf": "*",
+    "typescript": "^4.5.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
+  }
+}
