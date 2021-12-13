@@ -18,7 +18,7 @@ The SVGs are compressed / optimized by ~60%. It uses the Flat Rounded images fro
 
 If you need to discover the card type (`visa`, `mastercard` etc), you can use the [credit-card-type](https://www.npmjs.com/package/credit-card-type) package.
 
-<img src="./resources/example.jpg" width="25%" height="25%" />
+<img src="./resources/example.jpg" width="30%" height="30%" />
 
 > My App using this package!
 
