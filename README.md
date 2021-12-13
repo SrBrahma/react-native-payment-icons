@@ -42,35 +42,34 @@ import {PaymentIcon} from 'react-native-payment-icons'
 <PaymentIcon type='paypal' height='30%'/>
 ```
 
-* You must set the `type` property to the desired payment method / credit card. Available `types`:
+* You must set the `type` property to the desired payment method / credit card. Available `types` and their images:
 
-```
-alipay
-american-express
-amex             // Alias to american-express
-code             // Card's CVV representation
-diners-club
-diners           // Alias to diners-club
-discover
-elo
-generic
-hiper
-hipercard
-jcb
-maestro
-mastercard
-master           // Alias to mastercard
-mir
-paypal
-unionpay
-visa
-```
+> When there is more than one type for the same image, it's an alias!
 
-> Their images are available at [`aaronfagan/svg-credit-card-payment-icons`](https://github.com/aaronfagan/svg-credit-card-payment-icons)
+|Type    |Image
+|---    |---
+|alipay    |<img src="svgsSrc/alipay.svg" width=80/>
+|american-express <br>amex |<img src="svgsSrc/amex.svg" width=80/>
+|diners-club<br>diners    |<img src="svgsSrc/diners.svg" width=80/>
+|discover   |<img src="svgsSrc/discover.svg" width=80/>
+|elo    |<img src="svgsSrc/elo.svg" width=80/>
+|hiper    |<img src="svgsSrc/hiper.svg" width=80/>
+|hipercard   |<img src="svgsSrc/hipercard.svg" width=80/>
+|jcb    |<img src="svgsSrc/jcb.svg" width=80/>
+|maestro   |<img src="svgsSrc/maestro.svg" width=80/>
+|mastercard<br>master   |<img src="svgsSrc/mastercard.svg" width=80/>
+|mir    |<img src="svgsSrc/mir.svg" width=80/>
+|paypal    |<img src="svgsSrc/paypal.svg" width=80/>
+|unionpay   |<img src="svgsSrc/unionpay.svg" width=80/>
+|visa    |<img src="svgsSrc/visa.svg" width=80/>
+|generic  |<img src="svgsSrc/generic.svg" width=80/>
+|code  |<img src="svgsSrc/code.svg" width=80/>
 
 * You shall define either `width` or `height`. No need to define both, as it's set `aspectRatio: 780 / 500`, the width / height of the SVGs. If neither is defined, `width` defaults to `40`.
 
 * It also accepts all the props of the `Svg` component.
+
+* On invalid `type`, it defaults to `generic`.
 
 ## 📰 [Changelog](CHANGELOG.md)
 
@@ -79,7 +78,7 @@ visa
 
 > How to setup your own images! If you just want to use the package, you may ignore this!
 
-* To transform the SVGs, [download the .svgs](https://stackoverflow.com/a/18194523/10247962) from [svg-credit-card-payment-icons](https://github.com/aaronfagan/svg-credit-card-payment-icons). I used the flat-rounded styled images. Store them in `./svgsSrc/`, a new dir.
+* To transform the SVGs, [download the .svgs](https://stackoverflow.com/a/18194523/10247962) from [svg-credit-card-payment-icons](https://github.com/aaronfagan/svg-credit-card-payment-icons). I used the svgsSrc styled images. Store them in `./svgsSrc/`, a new dir.
 
 * If you want to add your own images, be sure that their width are 780 and height 500, to have the same ratio as the others.
 
