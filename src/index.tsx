@@ -34,7 +34,7 @@ const defaultType = 'generic';
 
 const aspectRatio = 780 / 500; // Width / Height of the svgs.
 
-const defaultWidth = 35;
+const defaultWidth = 40;
 
 type PaymentIconProps = {
   /** If invalid, it will default to generic. */
@@ -47,6 +47,11 @@ export function PaymentIcon(props: PaymentIconProps): JSX.Element {
   const width = (props.width === undefined && props.height === undefined) ? defaultWidth : props.width;
 
   return (
-    <Component {...props} style={[{ aspectRatio }, props.style]} width={width}/>
+    <Component
+      fill='#000' // We set this because rn-svg won't set black as the default color for some reason. Elo and Maestro cards wouldn't be bg black filled as in desktop.
+      {...props}
+      style={[{ aspectRatio }, props.style]} // After ...props to overwrite
+      width={width}
+    />
   );
 }

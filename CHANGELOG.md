@@ -11,6 +11,12 @@
 *
 -->
 
+## 1.0.5 (2021-12-13)
+* Changed `width` default from `35` to `40`.
+* Fixed `Hiper` card missing letters.
+* Fixed `Maestro` and `Elo` background colors not being black.
+
+
 ## 1.0.4 (2021-12-13)
 * Fixed `style` prop order.
 

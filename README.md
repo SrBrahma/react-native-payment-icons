@@ -10,17 +10,19 @@
 
 # react-native-credit-card-icons
 
-There wasn't a package for showing up credit cards and other payment icons in React Native. **Wasn't!**
+There wasn't a package for displaying credit cards and other payment icons in React Native. **Wasn't!**
 
-We use SVGs that are transormed into React Native JSX, so there isn't a loading time to show them up.
+We use SVGs that were transormed into React Native JSX, so there isn't a loading time to show them up.
 
-The SVGs are compressed / optimized by ~60%. It uses the Flat Rounded images of [`aaronfagan/svg-credit-card-payment-icons`](https://github.com/aaronfagan/svg-credit-card-payment-icons), and I intend to support other icon packs in the future, in a tree-shakable way.
-
+The SVGs are compressed / optimized by ~60%. It uses the Flat Rounded images from [`aaronfagan/svg-credit-card-payment-icons`](https://github.com/aaronfagan/svg-credit-card-payment-icons), and I intend to support other icon packs in the future, in a tree-shakable way.
 
 If you need to discover the card type (`visa`, `mastercard` etc), you can use the [credit-card-type](https://www.npmjs.com/package/credit-card-type) package.
 
+<img src="./resources/example.png" width="25%" height="25%" />
 
-## Installation
+> My App using this package!
+
+## 💿 Installation
 
 1) Install [react-native-svg](https://github.com/react-native-svg/react-native-svg)
 
@@ -31,7 +33,15 @@ npm install react-native-payment-icons
 yarn add react-native-payment-icons
 ```
 
-## Usage
+## 📖 Usage
+
+```tsx
+import {PaymentIcon} from 'react-native-payment-icons'
+
+<PaymentIcon type='visa'>
+<PaymentIcon type='master' width={50}>
+<PaymentIcon type='paypal' height='30%'>
+```
 
 * You must set the `type` property to the desired payment method / credit card. Available `types`:
 
@@ -59,33 +69,24 @@ visa
 
 > Their images are available at [`aaronfagan/svg-credit-card-payment-icons`](https://github.com/aaronfagan/svg-credit-card-payment-icons)
 
-* You shall define either `width` or `height`. No need to define both, as it has `aspectRatio: 780 / 500`, the width / height of the SVGs. If neither is defined, `width` defaults to `35`.
+* You shall define either `width` or `height`. No need to define both, as it's set `aspectRatio: 780 / 500`, the width / height of the SVGs. If neither is defined, `width` defaults to `40`.
 
 * It also accepts all the props of the `Svg` component.
 
-### Example
-```tsx
-import {PaymentIcon} from 'react-native-payment-icons'
-
-<PaymentIcon type='visa'>
-<PaymentIcon type='master' width={50}>
-<PaymentIcon type='paypal' height='30%'>
-```
-
-## [Changelog](CHANGELOG.md)
+## 📰 [Changelog](CHANGELOG.md)
 
 
-## Dev
+## 🤖 Dev
 
-> How to create your own images! If you just want to use the package, you can ignore this!
+> How to setup your own images! If you just want to use the package, you may ignore this!
 
-* To transform the SVGs, [download the .svgs](https://stackoverflow.com/a/18194523/10247962) from [svg-credit-card-payment-icons](https://github.com/aaronfagan/svg-credit-card-payment-icons). I used the flat-rounded styled images. Store them in a directory like `svgsSrc`.
+* To transform the SVGs, [download the .svgs](https://stackoverflow.com/a/18194523/10247962) from [svg-credit-card-payment-icons](https://github.com/aaronfagan/svg-credit-card-payment-icons). I used the flat-rounded styled images. Store them in `./svgsSrc/`, a new dir.
 
 * If you want to add your own images, be sure that their width are 780 and height 500, to have the same ratio as the others.
 
-### You may run `npm run svg` that executes the two steps below!
+#### You may run `npm run svg` that executes the two steps below!
 
-* Run [svgo](https://github.com/svg/svgo) to compress the SVGs. The best here is `-p 0` which sets the precision to 0, decreasing the total size from 96KB to 38KB. The quality loss isn't noticeable unless comparing, except in mastercard and diners that have some artifacts, so we set `precision 1` for them. There are other **svgo** plugins set in `svgo.config.js` file, that are automatically applied when running **svgo** at the same **cwd**.
+* Run [svgo](https://github.com/svg/svgo) to compress the SVGs. The best here is `-p 0` which sets the precision to 0, decreasing the total size from 96KB to 38KB. The quality loss isn't noticeable unless comparing, except in mastercard and diners that have some artifacts, so we set `precision 1` for them. There are other **svgo** plugins set in `svgo.config.js` file that are automatically applied when running **svgo** at the same **cwd**.
 
 `npx svgo -f ./svgsSrc -o ./svgsCompressed -p 0`
 
@@ -102,8 +103,6 @@ import {PaymentIcon} from 'react-native-payment-icons'
 * If adding or removing images, you will need to change src/index.tsx to add / remove the components in the dictionary.
 
 * If you want to compile the TS files into JS, `npm run build`.
-
-
 
 <!-- https://unblast.com/free-payment-method-icons-ai/ -->
 <!-- https://unblast.com/20-payment-card-icons-psd/ -->
