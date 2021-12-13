@@ -11,6 +11,10 @@
 *
 -->
 
+## 1.0.6 (2021-12-13)
+* Fixed README image
+* Added GitHub Publish Action
+
 ## 1.0.5 (2021-12-13)
 * Changed `width` default from `35` to `40`.
 * Fixed `Hiper` card missing letters.
