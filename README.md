@@ -14,7 +14,7 @@ There wasn't a package for showing up credit cards and other payment icons in Re
 
 We use SVGs that are transormed into React Native JSX, so there isn't a loading time to show them up.
 
-The library weights ~45KB. The SVGs are compressed. It uses the Flat Rounded images of [`aaronfagan/svg-credit-card-payment-icons`](https://github.com/aaronfagan/svg-credit-card-payment-icons), and I intend to support other icon packs in the future, in a tree-shakable way.
+The SVGs are compressed / optimized by ~60%. It uses the Flat Rounded images of [`aaronfagan/svg-credit-card-payment-icons`](https://github.com/aaronfagan/svg-credit-card-payment-icons), and I intend to support other icon packs in the future, in a tree-shakable way.
 
 
 If you need to discover the card type (`visa`, `mastercard` etc), you can use the [credit-card-type](https://www.npmjs.com/package/credit-card-type) package.
