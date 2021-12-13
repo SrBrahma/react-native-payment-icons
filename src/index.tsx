@@ -11,9 +11,10 @@ const PaymentTypeToComponent = {
   'american-express': Components.Amex,
   /** CVV representation */
   code: Components.Code,
-  diners: Components.Diners,
-  /** Alias to diners-club */
+  cvv: Components.Code,
   'diners-club': Components.Diners,
+  /** Alias to diners-club */
+  diners: Components.Diners,
   discover: Components.Discover,
   elo: Components.Elo,
   generic: Components.Generic,

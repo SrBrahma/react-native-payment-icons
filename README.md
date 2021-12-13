@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/react-native-payment-icons)](https://www.npmjs.com/package/react-native-payment-icons)
 [![TypeScript](https://badgen.net/npm/types/env-var)](http://www.typescriptlang.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![](https://img.shields.io/badge/-Contribute%20with%20a%20%E2%98%85!-%23ffd600)](#)
+[![](https://img.shields.io/badge/-Contribute%20with%20a%20%E2%98%85!-%23ffd700)](#)
 <!-- wait until stats available [![npm](https://img.shields.io/npm/dw/react-native-payment-icons)](https://www.npmjs.com/package/react-native-payment-icons) -->
 
 </div>
@@ -35,7 +35,7 @@ yarn add react-native-payment-icons
 
 ## 📖 Usage
 
-```tsx
+```jsx
 import { PaymentIcon } from 'react-native-payment-icons'
 
 <PaymentIcon type='visa'/>
@@ -43,28 +43,30 @@ import { PaymentIcon } from 'react-native-payment-icons'
 <PaymentIcon type='paypal' height='30%'/>
 ```
 
-* You must set the `type` property to the desired payment method / credit card. Available `types` and their images:
+* You must set the `type` property to the desired credit card / payment method.
+
+### Available `types` and their images:
 
 > When there is more than one type for the same image, it's an alias!
 
 |Type    |Image
 |---    |---
-|alipay    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/alipay.svg" width=80/>
-|american-express <br>amex |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/amex.svg" width=80/>
-|diners-club<br>diners    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/diners.svg" width=80/>
-|discover   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/discover.svg" width=80/>
-|elo    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/elo.svg" width=80/>
-|hiper    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/hiper.svg" width=80/>
-|hipercard   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/hipercard.svg" width=80/>
-|jcb    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/jcb.svg" width=80/>
-|maestro   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/maestro.svg" width=80/>
-|mastercard<br>master   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/mastercard.svg" width=80/>
-|mir    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/mir.svg" width=80/>
-|paypal    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/paypal.svg" width=80/>
-|unionpay   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/unionpay.svg" width=80/>
-|visa    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/visa.svg" width=80/>
-|generic  |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/generic.svg" width=80/>
-|code  |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/code.svg" width=80/>
+|`alipay`    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/alipay.svg" width=80/>
+|`american-express`<br>`amex` |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/amex.svg" width=80/>
+|`diners-club`<br>`diners`    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/diners.svg" width=80/>
+|`discover`   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/discover.svg" width=80/>
+|`elo`    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/elo.svg" width=80/>
+|`hiper`    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/hiper.svg" width=80/>
+|`hipercard`   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/hipercard.svg" width=80/>
+|`jcb`    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/jcb.svg" width=80/>
+|`maestro`   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/maestro.svg" width=80/>
+|`mastercard`<br>master   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/mastercard.svg" width=80/>
+|`mir`    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/mir.svg" width=80/>
+|`paypal`    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/paypal.svg" width=80/>
+|`unionpay`   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/unionpay.svg" width=80/>
+|`visa`    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/visa.svg" width=80/>
+|`generic`  |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/generic.svg" width=80/>
+|`cvv`<br>`code`  |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/code.svg" width=80/>
 
 > Images from [`aaronfagan/svg-credit-card-payment-icons`](https://github.com/aaronfagan/svg-credit-card-payment-icons)
 
