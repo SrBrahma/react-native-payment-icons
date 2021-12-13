@@ -11,6 +11,9 @@
 *
 -->
 
+## 1.0.4 (2021-12-13)
+* Fixed `style` prop order.
+
 ## 1.0.3 (2021-12-13)
 * Fixed JSX generation (SVGO plugins changed). Removed width/height, always setting viewBox. Automatically removing xml:space and class attributes. Converting style to attributes. Before some of those were been done manually.
 

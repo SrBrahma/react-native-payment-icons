@@ -47,6 +47,6 @@ export function PaymentIcon(props: PaymentIconProps): JSX.Element {
   const width = (props.width === undefined && props.height === undefined) ? defaultWidth : props.width;
 
   return (
-    <Component style={[{ aspectRatio }, props.style]} {...props} width={width}/>
+    <Component {...props} style={[{ aspectRatio }, props.style]} width={width}/>
   );
 }
