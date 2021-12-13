@@ -10,7 +10,7 @@
 
 # react-native-payment-icons
 
-There wasn't a package for displaying credit cards and other payment icons in React Native. **Wasn't!**
+There wasn't a package for displaying credit cards and other payment methods icons in React Native. **Wasn't!**
 
 We use SVGs that were transormed into React Native JSX, so there isn't a loading time to show them up.
 
@@ -36,7 +36,7 @@ yarn add react-native-payment-icons
 ## 📖 Usage
 
 ```tsx
-import {PaymentIcon} from 'react-native-payment-icons'
+import { PaymentIcon } from 'react-native-payment-icons'
 
 <PaymentIcon type='visa'/>
 <PaymentIcon type='master' width={50}/>
@@ -65,6 +65,8 @@ import {PaymentIcon} from 'react-native-payment-icons'
 |visa    |<img src="svgsSrc/visa.svg" width=80/>
 |generic  |<img src="svgsSrc/generic.svg" width=80/>
 |code  |<img src="svgsSrc/code.svg" width=80/>
+
+> Images from [`aaronfagan/svg-credit-card-payment-icons`](https://github.com/aaronfagan/svg-credit-card-payment-icons)
 
 * You shall define either `width` or `height`. No need to define both, as it's set `aspectRatio: 780 / 500`, the width / height of the SVGs. If neither is defined, `width` defaults to `40`.
 
