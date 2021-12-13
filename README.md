@@ -18,7 +18,7 @@ The SVGs are compressed / optimized by ~60%. It uses the Flat Rounded images fro
 
 If you need to discover the card type (`visa`, `mastercard` etc), you can use the [credit-card-type](https://www.npmjs.com/package/credit-card-type) package.
 
-<img src="./resources/example.jpg" width="30%" height="30%" />
+<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/resources/example.jpg" width="30%" height="30%" />
 
 > My App using this package!
 
@@ -49,22 +49,22 @@ import { PaymentIcon } from 'react-native-payment-icons'
 
 |Type    |Image
 |---    |---
-|alipay    |<img src="svgsSrc/alipay.svg" width=80/>
-|american-express <br>amex |<img src="svgsSrc/amex.svg" width=80/>
-|diners-club<br>diners    |<img src="svgsSrc/diners.svg" width=80/>
-|discover   |<img src="svgsSrc/discover.svg" width=80/>
-|elo    |<img src="svgsSrc/elo.svg" width=80/>
-|hiper    |<img src="svgsSrc/hiper.svg" width=80/>
-|hipercard   |<img src="svgsSrc/hipercard.svg" width=80/>
-|jcb    |<img src="svgsSrc/jcb.svg" width=80/>
-|maestro   |<img src="svgsSrc/maestro.svg" width=80/>
-|mastercard<br>master   |<img src="svgsSrc/mastercard.svg" width=80/>
-|mir    |<img src="svgsSrc/mir.svg" width=80/>
-|paypal    |<img src="svgsSrc/paypal.svg" width=80/>
-|unionpay   |<img src="svgsSrc/unionpay.svg" width=80/>
-|visa    |<img src="svgsSrc/visa.svg" width=80/>
-|generic  |<img src="svgsSrc/generic.svg" width=80/>
-|code  |<img src="svgsSrc/code.svg" width=80/>
+|alipay    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/alipay.svg" width=80/>
+|american-express <br>amex |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/amex.svg" width=80/>
+|diners-club<br>diners    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/diners.svg" width=80/>
+|discover   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/discover.svg" width=80/>
+|elo    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/elo.svg" width=80/>
+|hiper    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/hiper.svg" width=80/>
+|hipercard   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/hipercard.svg" width=80/>
+|jcb    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/jcb.svg" width=80/>
+|maestro   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/maestro.svg" width=80/>
+|mastercard<br>master   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/mastercard.svg" width=80/>
+|mir    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/mir.svg" width=80/>
+|paypal    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/paypal.svg" width=80/>
+|unionpay   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/unionpay.svg" width=80/>
+|visa    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/visa.svg" width=80/>
+|generic  |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/generic.svg" width=80/>
+|code  |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/code.svg" width=80/>
 
 > Images from [`aaronfagan/svg-credit-card-payment-icons`](https://github.com/aaronfagan/svg-credit-card-payment-icons)
 
