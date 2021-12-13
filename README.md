@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/react-native-payment-icons)](https://www.npmjs.com/package/react-native-payment-icons)
 [![TypeScript](https://badgen.net/npm/types/env-var)](http://www.typescriptlang.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![](https://img.shields.io/badge/-Contribute%20with%20a%20%E2%98%85!-%23ffd800)](#)
+[![](https://img.shields.io/badge/-Contribute%20with%20a%20%E2%98%85!-%23ffd600)](#)
 <!-- wait until stats available [![npm](https://img.shields.io/npm/dw/react-native-payment-icons)](https://www.npmjs.com/package/react-native-payment-icons) -->
 
 </div>
