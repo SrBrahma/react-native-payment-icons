@@ -16,6 +16,8 @@ module.exports = {
   },
   "ignorePatterns": [".eslintrc.js"],
   "rules": {
+    /** svgr won't add return type automatically */
+    "@typescript-eslint/explicit-module-boundary-types": "off"
   }
 };
 

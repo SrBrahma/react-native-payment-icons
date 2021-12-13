@@ -91,6 +91,8 @@ visa
 
 `npx @svgr/cli ./svgsCompressed --out-dir src/components --native --typescript`
 
+> There may happen some errors in the RN convertion you may need to deal manually. If happens, `npm run build` will throw them up.
+
 * An `index.tsx` will be automatically created re-exporting all the components.
 
 * If adding or removing images, you will need to change src/index.tsx to add / remove the components in the dictionary.

@@ -1,8 +1,8 @@
-import * as React from "react";
-import Svg, { SvgProps, G, Path } from "react-native-svg";
+import * as React from 'react';
+import Svg, { G, Path, SvgProps } from 'react-native-svg';
 
 const SvgDiscover = (props: SvgProps) => (
-  <Svg width={780} height={500} xmlns="http://www.w3.org/2000/svg" {...props}>
+  <Svg width={780} height={500} {...props}>
     <G fillRule="evenodd">
       <Path
         d="M55 0C25 0 0 25 0 55v391c0 30 25 55 55 55h670c30 0 55-25 55-55V55c0-30-25-55-55-55H55z"
