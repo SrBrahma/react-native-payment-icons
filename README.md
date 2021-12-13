@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/react-native-payment-icons)](https://www.npmjs.com/package/react-native-payment-icons)
 [![TypeScript](https://badgen.net/npm/types/env-var)](http://www.typescriptlang.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![](https://img.shields.io/badge/-Contribute%20with%20a%20%E2%98%85!-%23ffd700)](#)
+[![](https://img.shields.io/badge/-Contribute%20with%20a%20%E2%98%85!-%23ffd700)](https://github.com/SrBrahma/react-native-payment-icons)
 <!-- wait until stats available [![npm](https://img.shields.io/npm/dw/react-native-payment-icons)](https://www.npmjs.com/package/react-native-payment-icons) -->
 
 </div>
@@ -60,7 +60,7 @@ import { PaymentIcon } from 'react-native-payment-icons'
 |`hipercard`   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/hipercard.svg" width=80/>
 |`jcb`    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/jcb.svg" width=80/>
 |`maestro`   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/maestro.svg" width=80/>
-|`mastercard`<br>master   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/mastercard.svg" width=80/>
+|`mastercard`<br>`master`   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/mastercard.svg" width=80/>
 |`mir`    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/mir.svg" width=80/>
 |`paypal`    |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/paypal.svg" width=80/>
 |`unionpay`   |<img src="https://github.com/SrBrahma/react-native-payment-icons/raw/main/svgsSrc/unionpay.svg" width=80/>
@@ -72,7 +72,7 @@ import { PaymentIcon } from 'react-native-payment-icons'
 
 * You shall define either `width` or `height`. No need to define both, as it's set `aspectRatio: 780 / 500`, the width / height of the SVGs. If neither is defined, `width` defaults to `40`.
 
-* It also accepts all the props of the `Svg` component.
+* It also accepts all the props of the `Svg` component, like `style`.
 
 * On invalid `type`, it defaults to `generic`.
 
