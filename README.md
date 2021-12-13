@@ -65,6 +65,8 @@ visa
 
 ### Example
 ```tsx
+import {PaymentIcon} from 'react-native-payment-icons'
+
 <PaymentIcon type='visa'>
 <PaymentIcon type='master' width={50}>
 <PaymentIcon type='paypal' height='30%'>

@@ -11,6 +11,9 @@
 *
 -->
 
+## 1.0.2 (2021-12-13)
+* Fixed `styles` to work with default style.
+
 ## 1.0.1 (2021-12-13)
 * Removed .map files
 

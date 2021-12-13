@@ -42,11 +42,11 @@ type PaymentIconProps = {
 } & SvgProps;
 
 export function PaymentIcon(props: PaymentIconProps): JSX.Element {
-  const Compon: (props: SvgProps) => JSX.Element = PaymentTypeToComponent[props.type] ?? PaymentTypeToComponent[defaultType];
+  const Component: (props: SvgProps) => JSX.Element = PaymentTypeToComponent[props.type] ?? PaymentTypeToComponent[defaultType];
 
   const width = (props.width === undefined && props.height === undefined) ? defaultWidth : props.width;
 
   return (
-    <Compon style={{ aspectRatio }} {...props} width={width}/>
+    <Component style={[{ aspectRatio }, props.style]} {...props} width={width}/>
   );
 }
