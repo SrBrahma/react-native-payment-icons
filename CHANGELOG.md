@@ -11,7 +11,7 @@
 *
 -->
 
-## 1.0.7~9 (2021-12-13)
+## 1.0.7~10 (2021-12-13)
 * Fix README badge. Improved README. Version bump for npm.
 
 ## 1.0.6 (2021-12-13)

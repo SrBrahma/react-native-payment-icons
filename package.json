@@ -1,6 +1,6 @@
 {
   "name": "react-native-payment-icons",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Displays Credit Card and other payment ways icons!",
   "main": "./lib/index.js",
   "scripts": {
