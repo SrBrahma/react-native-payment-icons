@@ -37,9 +37,9 @@ yarn add react-native-payment-icons
 ```tsx
 import {PaymentIcon} from 'react-native-payment-icons'
 
-<PaymentIcon type='visa'>
-<PaymentIcon type='master' width={50}>
-<PaymentIcon type='paypal' height='30%'>
+<PaymentIcon type='visa'/>
+<PaymentIcon type='master' width={50}/>
+<PaymentIcon type='paypal' height='30%'/>
 ```
 
 * You must set the `type` property to the desired payment method / credit card. Available `types`:
