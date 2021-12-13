@@ -1,14 +1,13 @@
-<!-- <img src=".logo.png" alt=react-native-credit-card-icons/><br/> -->
-
 <div align="center">
 
-[![npm](https://img.shields.io/npm/v/react-native-credit-card-icons)](https://www.npmjs.com/package/react-native-credit-card-icons)
+[![npm](https://img.shields.io/npm/v/react-native-payment-icons)](https://www.npmjs.com/package/react-native-payment-icons)
 [![TypeScript](https://badgen.net/npm/types/env-var)](http://www.typescriptlang.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![npm](https://img.shields.io/npm/dw/react-native-credit-card-icons)](https://www.npmjs.com/package/react-native-credit-card-icons)
+<!-- wait until stats available [![npm](https://img.shields.io/npm/dw/react-native-payment-icons)](https://www.npmjs.com/package/react-native-payment-icons) -->
+
 </div>
 
-# react-native-credit-card-icons
+# react-native-payment-icons
 
 There wasn't a package for displaying credit cards and other payment icons in React Native. **Wasn't!**
 
