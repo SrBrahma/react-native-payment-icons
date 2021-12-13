@@ -2,11 +2,7 @@ import * as React from 'react';
 import Svg, { LinearGradient, Path, Stop, SvgProps } from 'react-native-svg';
 
 const SvgJcb = (props: SvgProps) => (
-  <Svg
-    width={780}
-    height={500}
-    {...props}
-  >
+  <Svg viewBox="0 0 780 500" {...props}>
     <Path
       d="M40 0h700c22 0 40 18 40 40v420c0 22-18 40-40 40H40c-22 0-40-18-40-40V40C0 18 18 0 40 0z"
       fill="#0E4C96"

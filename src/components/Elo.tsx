@@ -2,11 +2,7 @@ import * as React from 'react';
 import Svg, { Path, SvgProps } from 'react-native-svg';
 
 const SvgElo = (props: SvgProps) => (
-  <Svg
-    width={780}
-    height={500}
-    {...props}
-  >
+  <Svg viewBox="0 0 780 500" {...props}>
     <Path d="M42 0h698c23 0 41 19 41 42v415c0 24-18 43-41 43H42c-23 0-42-19-42-43V42C0 19 19 0 42 0z" />
     <Path
       d="M167 181c7-2 14-3 22-3 33 0 61 24 67 55l47-10a117 117 0 0 0-151-87l15 45z"

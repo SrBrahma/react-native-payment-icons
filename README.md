@@ -83,7 +83,9 @@ import {PaymentIcon} from 'react-native-payment-icons'
 
 * If you want to add your own images, be sure that their width are 780 and height 500, to have the same ratio as the others.
 
-* Run [svgo](https://github.com/svg/svgo) to compress the SVGs. The best here is `-p 0` which sets the precision to 0, decreasing the total size from 96KB to 38KB. The quality loss isn't noticeable unless comparing, except in mastercard and diners that have some artifacts, so we set `precision 1` for them.
+### You may run `npm run svg` that executes the two steps below!
+
+* Run [svgo](https://github.com/svg/svgo) to compress the SVGs. The best here is `-p 0` which sets the precision to 0, decreasing the total size from 96KB to 38KB. The quality loss isn't noticeable unless comparing, except in mastercard and diners that have some artifacts, so we set `precision 1` for them. There are other **svgo** plugins set in `svgo.config.js` file, that are automatically applied when running **svgo** at the same **cwd**.
 
 `npx svgo -f ./svgsSrc -o ./svgsCompressed -p 0`
 

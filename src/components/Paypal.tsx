@@ -2,11 +2,7 @@ import * as React from 'react';
 import Svg, { Path, SvgProps } from 'react-native-svg';
 
 const SvgPaypal = (props: SvgProps) => (
-  <Svg
-    width={780}
-    height={500}
-    {...props}
-  >
+  <Svg viewBox="0 0 780 500" {...props}>
     <Path
       d="M725 0H55C25 0 0 25 0 55v391c0 30 25 55 55 55h670c30 0 55-25 55-55V55c0-30-25-55-55-55z"
       fill="#FFF"

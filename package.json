@@ -1,6 +1,6 @@
 {
   "name": "react-native-payment-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Displays Credit Card and other payment ways icons!",
   "main": "./lib/index.js",
   "scripts": {
@@ -10,7 +10,10 @@
     "build": "npm run clean && tsc",
     "prepublishOnly": "npm run lint && npm run test",
     "prepare": "npm run build",
-    "start": "npm run watch"
+    "start": "npm run watch",
+    "svgo": "rimraf svgsCompressed && npx -y svgo -f ./svgsSrc -o ./svgsCompressed -p 0 && npx -y svgo -p 1 ./svgsSrc/mastercard.svg ./svgsSrc/diners.svg -o ./svgsCompressed/mastercard.svg ./svgsCompressed/diners.svg",
+    "svgr": "rimraf src/components && npx -y @svgr/cli ./svgsCompressed --out-dir src/components --native --typescript",
+    "svg": "npm run svgo && npm run svgr"
   },
   "keywords": [
     "credit",
