@@ -83,7 +83,7 @@ import { PaymentIcon } from 'react-native-payment-icons'
 
 > How to setup your own images! If you just want to use the package, you may ignore this!
 
-* To transform the SVGs, [download the .svgs](https://stackoverflow.com/a/18194523/10247962) from [svg-credit-card-payment-icons](https://github.com/aaronfagan/svg-credit-card-payment-icons). I used the svgsSrc styled images. Store them in `./svgsSrc/`.
+* To transform the SVGs, [download the .svgs](https://stackoverflow.com/a/18194523/10247962) from [svg-credit-card-payment-icons](https://github.com/aaronfagan/svg-credit-card-payment-icons). I used the `Flat Rounded` styled images. Store them in `./svgsSrc/`.
 
 * If you want to add your own images, be sure that their width are 780 and height 500, to have the same ratio as the others.
 
