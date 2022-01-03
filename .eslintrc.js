@@ -1,11 +1,12 @@
 module.exports = {
   "env": {
     "es2021": true,
-    "node": true
+    "node": true,
+    "react-native/react-native": true
   },
   "extends": [
-    "plugin:@typescript-eslint/recommended-requiring-type-checking", // https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md#getting-started---linting-with-type-information
-    "eslint-config-gev", // https://github.com/SrBrahma/eslint-config-gev
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "eslint-config-gev/react-native", // https://github.com/SrBrahma/eslint-config-gev
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -13,6 +14,9 @@ module.exports = {
     "sourceType": "module",
     "tsconfigRootDir": __dirname,
     "project": ['./tsconfig.lint.json'],
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "ignorePatterns": [".eslintrc.js"],
   "rules": {
