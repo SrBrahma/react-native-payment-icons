@@ -13,7 +13,7 @@
 
 There wasn't a package for displaying credit cards and other payment methods icons in React Native. **Wasn't!**
 
-We use SVGs that were transormed into React Native JSX, so there isn't a loading time to show them up.
+We use SVGs that were transormed into React Native JSX, so there isn't a loading time to show them up in Expo Go / Expo Dev Client, as images are transferred on demand.
 
 The SVGs are compressed / optimized by ~60%. It uses the Flat Rounded images from [`aaronfagan/svg-credit-card-payment-icons`](https://github.com/aaronfagan/svg-credit-card-payment-icons), and I intend to support other icon packs in the future, in a tree-shakable way.
 
